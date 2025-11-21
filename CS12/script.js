@@ -3,9 +3,9 @@
 
 //This function will run once the user presses the submit button.
 function submitFormData() {
-	let studentNum = document.getElementById('studentNumber').value;
-	let firstName = document.getElementById('firstName').value;
-	let lastName = document.getElementById('lastName').value;
+	let studentNum = document.getElementById('studentno').value;
+	let firstName = document.getElementById('firstname').value;
+	let lastName = document.getElementById('lastname').value;
 	let age = document.getElementById('age').value;
 	let email = document.getElementById('email').value;
 
@@ -71,3 +71,4 @@ function viewAllData() {
 		alert("An error occurred while retrieving data: " + error);
 	});
 }
+
